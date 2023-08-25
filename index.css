@@ -20,7 +20,7 @@
 
 /* novetly */
 @import url("./blocks/novetly/novetly.css");
-@import url("./blocks/novetly/__items/novetly__items.css");
+@import url("./blocks/novetly/__information/novetly__information.css");
 @import url("./blocks/novetly/__logo/novetly__logo.css");
 @import url("./blocks/novetly/__description/novetly__description.css");
 @import url("./blocks/novetly/__button/novetly__button.css");
