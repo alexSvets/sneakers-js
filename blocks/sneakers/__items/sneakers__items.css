@@ -6,4 +6,6 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-top: 40px;
+  padding: 20px 26px 34px 26px;
 }

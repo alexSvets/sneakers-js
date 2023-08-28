@@ -1,5 +1,5 @@
 .sneakers__price {
   display: flex;
-  margin-top: 14px;
-  margin-bottom: 34px;
+  justify-content: space-between;
+  width: 95%;
 }
