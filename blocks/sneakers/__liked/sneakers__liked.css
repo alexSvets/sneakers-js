@@ -1,0 +1,15 @@
+.sneakers__liked {
+  border: 1px solid #f8f8f8;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+.sneakers__liked > svg * {
+  fill: #d3d3d3;
+}

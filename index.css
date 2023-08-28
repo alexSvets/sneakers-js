@@ -25,3 +25,23 @@
 @import url("./blocks/novetly/__description/novetly__description.css");
 @import url("./blocks/novetly/__button/novetly__button.css");
 @import url("./blocks/novetly/__description-brand/novetly__description-brand.css");
+
+/* sneakers */
+@import url("./blocks/sneakers/sneakers.css");
+@import url("./blocks/sneakers/__title/sneakers__title.css");
+@import url("./blocks/sneakers/__search/sneakers__search.css");
+@import url("./blocks/sneakers/__wrapper/sneakers__wrapper.css");
+@import url("./blocks/sneakers/__icon/sneakers__icon.css");
+@import url("./blocks/sneakers/__input/sneakers__input.css");
+@import url("./blocks/sneakers/__container/sneakers__container.css");
+@import url("./blocks/sneakers/__items/sneakers__items.css");
+@import url("./blocks/sneakers/__liked/sneakers__liked.css");
+@import url("./blocks/sneakers/__liked-img/sneakers__liked-img.css");
+@import url("./blocks/sneakers/__name/sneakers__name.css");
+@import url("./blocks/sneakers/__price/sneakers__price.css");
+@import url("./blocks/sneakers/__price-count/sneakers__price-count.css");
+@import url("./blocks/sneakers/__img/sneakers__img.css");
+@import url("./blocks/sneakers/__description/sneakers__description.css");
+
+/* elements */
+@import url("./blocks/elements/elements.css");

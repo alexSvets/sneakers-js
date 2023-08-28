@@ -1,0 +1,10 @@
+.sneakers__img {
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  margin-left: 39px;
+  cursor: pointer;
+}
