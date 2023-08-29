@@ -1,0 +1,6 @@
+.cart__container {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-width: 385px;
+}

@@ -1,0 +1,12 @@
+.cart__button {
+  background-color: #9dd458;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 57px;
+  width: 245px;
+  height: 55px;
+  border-radius: 18px;
+  padding: 0 31px;
+  cursor: pointer;
+}
