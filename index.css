@@ -37,9 +37,11 @@
 @import url("./blocks/sneakers/__liked/sneakers__liked.css");
 @import url("./blocks/sneakers/__name/sneakers__name.css");
 @import url("./blocks/sneakers/__price/sneakers__price.css");
-@import url("./blocks/sneakers/__price-count/sneakers__price-count.css");
+@import url("./blocks/sneakers/__cost/sneakers__cost.css");
+@import url("./blocks/sneakers/__currency/sneakers__currency.css");
 @import url("./blocks/sneakers/__img/sneakers__img.css");
 @import url("./blocks/sneakers/__description/sneakers__description.css");
+@import url("./blocks/sneakers/__add/sneakers__add.css");
 
 /* elements */
 @import url("./blocks/elements/elements.css");

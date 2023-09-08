@@ -1,7 +1,8 @@
-.sneakers__price {
+.sneakers__cost {
   display: flex;
   justify-content: space-between;
-  width: 95%;
   align-items: center;
-  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
 }

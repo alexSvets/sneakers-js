@@ -60,30 +60,26 @@ const cards = [
     imageUrl: "../img/7.jpg",
   },
 ];
-const template = document
-  .getElementById("template-element")
-  .content.querySelector(".sneakers__items");
+
+const template = document.getElementById("template-element").content;
 const elements = document.querySelector(".elements");
-const sneakersCurrency = document.querySelector(".sneakers__currency");
-console.log(sneakersCurrency);
-function generateInitionalItem(item) {
-  const newItem = template.cloneNode(true);
-  const likeImg = newItem.querySelector(".sneakers__liked");
+
+function generateItem(item) {
+  const newItem = template.querySelector(".sneakers__items").cloneNode(true);
   const sneakersImg = newItem.querySelector(".sneakers__img");
   const sneakersName = newItem.querySelector(".sneakers__name");
-  const sneakersPrice = newItem.querySelector(".sneakers__price-count");
-  const sneakersAdd = newItem.querySelector(".sneakers__add");
+  const sneakersPriceCount = newItem.querySelector(".sneakers__price-count");
   sneakersImg.src = item.imageUrl;
   sneakersImg.alt = item.title;
   sneakersName.textContent = item.title;
-  sneakersPrice.textContent = item.price;
+  sneakersPriceCount.textContent = item.price;
   return newItem;
 }
 
-function addItem(element) {
-  elements.prepend(generateInitionalItem(element));
+function addElement(element) {
+  elements.prepend(generateItem(element));
 }
 
 cards.forEach((card) => {
-  addItem(card);
+  addElement(card);
 });
