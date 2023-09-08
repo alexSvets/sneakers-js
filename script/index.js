@@ -63,7 +63,11 @@ const cards = [
 
 const template = document.getElementById("template-element").content;
 const elements = document.querySelector(".elements");
+const cart = document.querySelector(".cart");
+const cartButton = document.querySelector(".header__img_type-cart");
+const cartButtonBack = document.querySelector(".cart__button");
 
+// generate card
 function generateItem(item) {
   const newItem = template.querySelector(".sneakers__items").cloneNode(true);
   const sneakersImg = newItem.querySelector(".sneakers__img");
@@ -83,3 +87,30 @@ function addElement(element) {
 cards.forEach((card) => {
   addElement(card);
 });
+
+//  open/close cart
+function closeCartOverlay(event) {
+  if (event.target.classList.contains("cart") || event.keyCode == 27) {
+    closeCart(event.target);
+  }
+}
+
+function closeCartEsc(event) {
+  if (event.keyCode === 27) {
+    closeCart(event.target);
+  }
+}
+
+function closeCart() {
+  cart.classList.remove("cart_is-opened");
+  document.removeEventListener("keydown", closeCartEsc);
+}
+
+function openCart() {
+  cart.classList.add("cart_is-opened");
+  document.addEventListener("keydown", closeCartEsc);
+}
+
+cartButton.addEventListener("click", openCart);
+cartButtonBack.addEventListener("click", closeCart);
+cart.addEventListener("mousedown", closeCartOverlay);
