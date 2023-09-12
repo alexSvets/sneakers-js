@@ -24,9 +24,7 @@ function getAllCard() {
       if (res.ok) {
         return res.json();
       }
-      return Promise.resolve(
-        `У вас случилась ошибка со статусом ${res.status}`
-      );
+      return Promise.resolve(`You have an error with the status ${res.status}`);
     })
     .then((data) => {
       data.forEach((card) => {
